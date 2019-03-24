@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <SearchEvents/>
 </template>
+
+<script>
+import SearchEvents from '../components/SearchEvents'
+
+export default {
+  components: {
+    SearchEvents
+  }
+}
+</script>
